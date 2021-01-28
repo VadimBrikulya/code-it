@@ -1,0 +1,38 @@
+.registration{
+    padding: 50px 0;
+}
+
+.registration__title{
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 30px;
+max-width: 280px;
+
+// color: #FFFFFF;
+color: black;
+}
+
+.registration__form-appeal{
+    display: block;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.25;
+text-align: center;
+letter-spacing: 0.08em;
+margin-bottom: 30px;
+max-width: 280px;
+
+// color: #FFFFFF;
+color: black;
+}
+
+
+.registration__form-label-input{
+    max-width: 280px;
+    max-height: 48px;
+}
