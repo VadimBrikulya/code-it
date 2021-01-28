@@ -1,0 +1,141 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.garant__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #111518;
+}
+
+.registration {
+  padding: 50px 0;
+  background: #111518;
+}
+
+.registration__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  min-width: 280px;
+  color: #FFFFFF;
+}
+
+.registration__form-appeal {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.08em;
+  margin-bottom: 30px;
+  min-width: 280px;
+  color: #FFFFFF;
+}
+
+.registration__form-label-input {
+  min-width: 280px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.registration__form-label-input:not(last-child) {
+  margin-bottom: 20px;
+}
+
+.registration__form-label-input:last-child {
+  margin-bottom: 50px;
+}
+
+.registration__form-label-input:placeholder-shown {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.08em;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-left: 28px;
+  color: #FFFFFF;
+}
+
+.registration__form-button {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  min-width: 260px;
+  height: 48px;
+  background-color: #FF6B09;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1344px) {
+  .container {
+    max-width: 1344px;
+  }
+}
+
+:root {
+  --black-color: #111518;
+  --orange-color: #ff6b09;
+  --white-color: #ffffff;
+  --grey-color: #b9b9b9;
+}
+/*# sourceMappingURL=main.css.map */
