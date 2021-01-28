@@ -7,6 +7,13 @@
   <title lang="en">Helen</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+  crossorigin="anonymous"
+/>
+
 
 </head>
 
@@ -20,23 +27,26 @@
 
      <!--Регистрация-->
     <section class="registration">
-      <div class="container">
-        <h2 class="registration__title">Регистрация на бесплатную телефонную консультацию по нюансам ЗНО
-          по английскому языку</h2>
-          <form action="#" class="registration__form">
-            <b class="registration__form-appeal">Оставь заявку на участие в бесплатном занятии. <br> 
-              С вами свяжется консультант и ответит на вопросы</b>
-              <label class="registration__form-label">
-                <input type="text" name="user-name" placeholder="Имя*" class="registration__form-label-input">
-              </label>
+     
+        <div class="container">
+          <h2 class="registration__title">Регистрация на бесплатную телефонную консультацию по нюансам ЗНО
+            по английскому языку</h2>
+            <form action="#" class="registration__form">
+              <b class="registration__form-appeal">Оставь заявку на участие в бесплатном занятии. <br> 
+                С вами свяжется консультант и ответит на вопросы</b>
+                <label class="registration__form-label">
+                  <input type="text" name="user-name" placeholder="Имя*" class="registration__form-label-input">
+                </label>
+  
+                <label class="registration__form-label" >
+                  <input type="tel" name="user-tel" placeholder="Телефон*" class="registration__form-label-input" >
+                </label>
+  
+                <button type="submit" class="registration__form-button">хочу на бесплатное занятие</button>
+            </form>
+        </div>
+     
 
-              <label class="registration__form-label" >
-                <input type="tel" name="user-tel" placeholder="Телефон*" class="registration__form-label-input" >
-              </label>
-
-              <button type="submit" class="registration__form-button">хочу на бесплатное занятие</button>
-          </form>
-      </div>
     </section>
   </main>
 

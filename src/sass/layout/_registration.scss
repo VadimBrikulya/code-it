@@ -1,6 +1,8 @@
 .registration{
     padding: 50px 0;
+    background: #111518;
 }
+
 
 .registration__title{
 font-style: normal;
@@ -10,10 +12,11 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 30px;
-max-width: 280px;
 
-// color: #FFFFFF;
-color: black;
+min-width: 280px;
+
+color: #FFFFFF;
+
 }
 
 .registration__form-appeal{
@@ -25,14 +28,60 @@ line-height: 1.25;
 text-align: center;
 letter-spacing: 0.08em;
 margin-bottom: 30px;
-max-width: 280px;
 
-// color: #FFFFFF;
-color: black;
+min-width: 280px;
+
+color: #FFFFFF;
+
 }
 
 
 .registration__form-label-input{
-    max-width: 280px;
-    max-height: 48px;
+    min-width: 280px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+box-sizing: border-box;
+    
+}
+
+.registration__form-label-input:not(last-child){
+    margin-bottom: 20px;
+}
+
+.registration__form-label-input:last-child{
+    margin-bottom: 50px;
+}
+
+.registration__form-label-input:placeholder-shown{
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 1.21;
+letter-spacing: 0.08em;
+padding-top: 15px;
+padding-bottom: 16px;
+padding-left: 28px;
+
+color:  #FFFFFF;
+}
+
+.registration__form-button{
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.25;
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+
+    min-width: 260px;
+    height: 48px;
+    background-color: #FF6B09;
+   
+  
 }
