@@ -20,7 +20,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
 }
 
 .registration{
-         &__title{
+    &__title{
         font-style: normal;
         font-weight: 800;
         font-size: 14px;
@@ -33,10 +33,10 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
         
         color: var(--white-color);
         
-        }
+    }
 
-        &__form-appeal{
-            display: block;
+    &__form-appeal{
+        display: block;
         font-style: normal;
         font-weight: 600;
         font-size: 12px;
@@ -49,90 +49,93 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) {
         
         color: var(--white-color);
         
-        }
+    }
 
-        &__form-label-input{
-            display: block;
-            min-width: 280px;
-            height: 48px;
-            border: 1px solid #FFFFFF;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 20px;
-            background-color: transparent;
+    &__form-label-input{
+        display: block;
+        min-width: 280px;
+        height: 48px;
+        border: 1px solid #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        background-color: transparent;   
         
         
             
-        }
+    }
 
-            &__form-label-input::placeholder{
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 1.21;
-            letter-spacing: 0.08em;
-            padding-top: 15px;
-            padding-bottom: 16px;
-            padding-left: 28px;
+    &__form-label-input::placeholder{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.21;
+        letter-spacing: 0.08em;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        padding-left: 28px;
             
-            color: var(--white-color);
-            }
-                &__form-button{
-                display: block;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 1.25;
+        color: var(--white-color);
+    }
+
+    &__form-button{
+        display: block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.25;
             
-                text-align: center;
-                letter-spacing: 0.08em;
-                text-transform: uppercase;
-                margin: 0 auto;
-                margin-top: 50px;
-                border: 1px solid transparent;
+        text-align: center;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: 1px solid transparent;
                    
-                color: var(--white-color);
+        color: var(--white-color);
                 
             
-                min-width: 260px;
-                height: 48px;
-                background-color: var(--orange-color);
+        min-width: 260px;
+        height: 48px;
+        background-color: var(--orange-color);
                             
-                 }        
+    }    
+    
+    &__form-label-input:not(:last-child) {
+        padding-bottom: 20px;
+      }
 
 }
 
-// .registration__form-label-input:not(:last-child) {
-//     padding-bottom: 20px;
-//   }
+
 
 @media screen and (min-width: 768px){
     .registration{
         padding-bottom: 71px;
 
-        &__title{
+    &__title{
     font-size: 26px;
     line-height: 1.21;
     min-width: 688px;
     padding: 0 6px;
-        }
+    }
 
-        &__form-appeal{
+    &__form-appeal{
         font-size: 14px;
         line-height: 1.21;
         margin-bottom: 40px;
-        }
-       
-        &__form-label-input{
-            
-            min-width: 390px;
-        }
-
-        &__form-button{
-            margin-top: 30px;
-        }
-        
     }
+       
+    &__form-label-input{
+            
+         min-width: 390px;
+    }
+
+    &__form-button{
+            margin-top: 30px;
+    }
+        
+   }
 
     .registration{
               background-image: 
